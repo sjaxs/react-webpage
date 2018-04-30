@@ -2,12 +2,14 @@
 import React from 'react';
 import { Route, Switch} from 'react-router-dom'; 
 
-//Routes
+// Components
 import App from './Components/App';
 import About from './Components/About';
 import Contact from './Components/Contact';
-import Home from './Components/Home';
 import Page404 from './Components/Page404';
+
+// Containers
+import Home from './Containers/Home';
 
 const AppRoutes = () =>
     <App>
